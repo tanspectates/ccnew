@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Closet Cleaned — Shoes worth the group chat</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Space+Grotesk:wght@400;500;600;700&family=Bebas+Neue&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" /><link rel="stylesheet" href="polish.css" />
+</head>
+<body>
+  <div class="noise"></div>
+  <div class="announcement"><div class="ticker"><span>FREE SHIPPING OVER ₹1499 ✦</span><span>NO BORING SHOES ALLOWED ✦</span><span>NEW DROP: CLEAN SLATE 02 ✦</span><span>YOUR FEET DESERVE LORE ✦</span><span>FREE SHIPPING OVER ₹1499 ✦</span><span>NO BORING SHOES ALLOWED ✦</span></div></div>
+  <header><a class="brand" href="index.html"><i>CC</i><span>CLOSET<br>CLEANED</span></a><nav><a class="active" href="index.html">HOME</a><a href="shop.html">SHOP</a><a href="story.html">THE LORE</a><a href="support.html">SUPPORT</a></nav><a class="bag" id="bagButton" href="checkout.html">BAG <b id="bagCount">0</b></a><button class="menu" aria-label="Menu">☰</button></header>
+  <main>
+    <section class="hero">
+      <div class="hero-image" id="heroImage"></div><div class="hero-shade"></div>
+      <div class="hero-copy"><p class="eyebrow"><span></span><span id="heroKicker">DROP 02 / LIVE NOW</span></p><h1 id="heroTitle">SHOES<br>WITH <em>ISSUES.</em></h1><p class="subcopy" id="heroText">Built for missed trains, long nights, questionable decisions, and every fit check in between.</p><div class="hero-actions"><a class="button light" href="shop.html">SHOP THE DROP <b>↗</b></a><a class="button ghost" href="#featured">ENTER THE ROTATION</a></div></div>
+      <button class="slide-control left" id="prevSlide" aria-label="Previous hero card">←</button><button class="slide-control right" id="nextSlide" aria-label="Next hero card">→</button><div class="hero-meta"><span id="heroIndex">01 — 03</span><span>SWIPE THE DROP</span></div><div class="orb orb-one"></div><div class="orb orb-two"></div>
+    </section>
+    <section class="marquee"><div>YOUR OUTFIT CALLED. IT NEEDS BETTER SHOES. <b>✦</b> YOUR OUTFIT CALLED. IT NEEDS BETTER SHOES. <b>✦</b></div></section>
+    <section id="featured" class="section featured"><div class="section-head"><div><p class="eyebrow">THE CLEAN SLATE / 02</p><h2>MADE FOR<br>THE <em>ROTATION.</em></h2></div><p>Six pairs. Zero excuses. Hover a shoe, let it move a little — we all need attention sometimes.</p></div><div class="filters"><button class="selected">ALL SHOES</button><button>RUNNERS</button><button>HIGH-TOPS</button><button>DAILY MENACES</button></div><div class="product-grid" id="productGrid"></div><a class="button outline center" href="shop.html">SEE ALL THE HEAT <b>→</b></a></section>
+    <section class="manifesto"><p class="eyebrow">NOT A SNEAKER STORE</p><h2>IT'S A <em>PERSONALITY</em><br>TRAIT NOW.</h2><div class="manifesto-row"><p>Closet Cleaned makes footwear for people whose saved folder is better than their sleep schedule.</p><a href="story.html" class="text-link">READ THE LORE <b>↗</b></a></div><div class="giant-cc">CC</div></section>
+    <section class="proof"><div><p class="eyebrow">THE NUMBERS ARE NUMBERS-ING</p><strong class="count" data-target="50023">0</strong><p>customers with a better excuse to leave the house.<br><em>you could be the next one..</em></p></div><div><strong class="count" data-target="928">0</strong><p>suddenly converted into sneaker heads. We don’t make the rules.</p></div></section>
+    <section class="reviews"><div class="review-head"><p class="eyebrow">VERY REAL PEOPLE*</p><h2>WORN. POSTED.<br>OVERTHOUGHT.</h2><small>*probably</small></div><div class="review-track"><article>★★★★★<p>“Bought them for the fit. Kept them because my old shoes started looking unemployed.”</p><footer><b>RHEA, 21</b><span>Delhi</span></footer></article><article>★★★★½<p>“I was told they're ‘different’. Correct. I did not pay ₹1,999 to blend into the wallpaper.”</p><footer><b>ARJUN, 24</b><span>Mumbai</span></footer></article><article>★★★★☆<p>“They survived Bangalore rain, a concert, and an ex’s party. That’s heritage.”</p><footer><b>MEERA, 22</b><span>Bengaluru</span></footer></article></div></section>
+    <section class="discord-cta"><p class="eyebrow">SUPPORT, BUT MAKE IT HUMAN</p><h2>HELP?<br><em>WE'RE HERE.</em></h2><p>Size question, shipping drama, existential footwear crisis — fill the short form and we’ll get back to you.</p><a class="button lime" href="https://docs.google.com/forms/" target="_blank" rel="noreferrer">OPEN HELP FORM <b>↗</b></a></section>
+  </main>
+  <aside class="offer" id="offer"><button id="closeOffer">×</button><p class="eyebrow">LUCK DETECTED</p><h3>₹1,999?<br><em>not for you.</em></h3><p>Use code <b>YOUWEREHERE</b> and make it ₹1,299. You’re welcome.</p><a href="shop.html">CLAIM THE FLEX →</a></aside>
+  <div class="toast" id="toast">ADDED TO YOUR BAG.</div>
+  <div class="entry-gate" id="entryGate"><div class="gate-card"><p class="eyebrow">BEFORE WE BEGIN</p><h2>THIS IS A<br><em>CONCEPT STORE.</em></h2><p>Closet Cleaned is a fictional, experimental sneaker experience. Product names, visuals, prices, and references are for design/demo purposes only. No real money, brands, or products are involved.</p><label><input type="checkbox" id="fictionCheck"> I understand this is all fictional; no real money is involved.</label><label><input type="checkbox" id="sneakerCheck"> I am a sneaker head <small>(optional but respected)</small></label><button class="button light" id="enterSite" disabled>LET'S GO <b id="gateTimer">08</b></button></div></div>
+  <footer class="site-footer"><a class="brand" href="index.html"><i>CC</i><span>CLOSET<br>CLEANED</span></a><div><p>THE GOOD STUFF</p><a href="shop.html">Shop all</a><a href="story.html">Our lore</a><a href="support.html">Size guide</a></div><div><p>KEEP IT WEIRD</p><a href="#">Instagram</a><a href="#">TikTok</a><a href="https://discord.com/users/1368476244496089098" target="_blank">Discord</a></div><div><p>NO SPAM, JUST DROPS</p><form onsubmit="event.preventDefault();this.innerHTML='<strong>YOU’RE ON THE LIST.</strong>'"><input placeholder="your@email.com" aria-label="Email"><button>→</button></form></div><small>© 2026 CLOSET CLEANED. MADE FOR THE GROUP CHAT.</small></footer>
+  <script src="app.js"></script><script src="polish.js"></script>
+</body></html>
