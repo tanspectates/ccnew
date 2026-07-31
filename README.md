@@ -8,7 +8,7 @@ Open `index.html` in a browser to view it. The site has no build step or package
 
 Every **BUY ON DISCORD** button copies a product-specific order message, then opens the configured Discord profile:
 
-`https://discord.com/users/1368476244496089098`
+`
 
 Discord profile URLs cannot pre-fill a direct message from a website. The shop now uses a fictional checkout/bag flow instead, with no payment processing.
 
